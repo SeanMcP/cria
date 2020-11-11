@@ -118,7 +118,9 @@ a:visited {
 }
 
 .field input,
-.input {
+.field textarea,
+.input, 
+.textarea {
   border: var(--border-width) solid hsla(0, 0%, 0%, 16%);
   border-radius: var(--border-radius);
   font-weight: bold;
