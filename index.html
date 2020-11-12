@@ -12,12 +12,113 @@
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦙</text></svg>"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/tl.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <main>
+    <main class="content">
       <h1><span aria-hidden="true" role="img">🦙</span> Cria</h1>
+      <!-- Remove from here -->
+      <h2>Text</h2>
+      <p>
+        Lorem, ipsum dolor sit
+        <a href="#main">amet consectetur adipisicing elit</a>. Pariatur illo
+        debitis natus quam ad dolores doloribus dicta expedita quo. Tempore,
+        aliquam quos veritatis distinctio consequatur quidem quae aliquid ad
+        dolorum?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quisquam
+        molestias perspiciatis qui voluptates necessitatibus quaerat quibusdam,
+        veniam explicabo blanditiis? Doloribus facere minus ut iusto autem
+        cupiditate fugiat omnis modi.
+      </p>
+      <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ol>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, iure
+        doloremque dicta deleniti est nihil aperiam corrupti, vel reiciendis
+        rerum voluptatum laudantium iusto praesentium natus. Quas, neque fugiat!
+        Sit, dolorem!
+      </p>
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ul>
+      <h2>Forms</h2>
+      <h3>Inputs</h3>
+      <label class="field">
+        <b>Text</b>
+        <input placeholder="Text" />
+      </label>
+      <label class="field inline">
+        <input type="checkbox" />
+        <b>Check box</b>
+      </label>
+      <div class="field">
+        <label for="name">Name</label>
+        <div class="description" id="name-description">First and last name</div>
+        <input
+          aria-describedby="name-description"
+          id="name"
+          name="name"
+          type="text"
+        />
+      </div>
+      <div class="field">
+        <label for="">Favorite number</label>
+        <select>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <h3>Buttons</h3>
+      <h4>Primary</h4>
+      <button class="primary">Default</button>
+      <button class="primary outline">Outline</button>
+      <button class="primary subtle">Subtle</button>
+      <h4>Secondary</h4>
+      <button class="secondary">Default</button>
+      <button class="secondary outline">Outline</button>
+      <button class="secondary subtle">Subtle</button>
+      <h2>Table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Number</th>
+            <th>Name</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>6</td>
+            <td>Squirtle</td>
+            <td>Water</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Wartortle</td>
+            <td>Water</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Blastoise</td>
+            <td>Water</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- to here -->
     </main>
     <script src="./assets/js/main.js" type="module"></script>
   </body>
